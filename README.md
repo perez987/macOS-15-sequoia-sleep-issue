@@ -142,7 +142,7 @@ sudo launchctl list | grep com.user.nosched
 - 0 com.user.nosched
 ```
 
-To see if `apsd` is no longer active (command returns nothing if com.apple.apsd is stopped)::
+To see if `apsd` is no longer active (command returns nothing if com.apple.apsd is stopped):
 
 `sudo launchctl list | grep com.apple.apsd`
 
